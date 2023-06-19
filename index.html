@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      width:auto;
+      text-align: justify;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: #005083;
+      text-align: center;
+      padding: 10px 16px 10px 16px;
+      text-decoration: none;
+      font-size:24px ;
+      font-style: bold;
+      margin:10px;
+
+    }
+    li img{
+        display: block;
+        margin-left:100px;
+        margin-right:100px;
+        background-color: transparent;
+
+    }
+    
+    li a:hover{
+      background-color:#005083;
+      color: white;
+    }
+
+    .banner{
+        height: 400px;
+        width: auto;
+        text-align: center;
+        background-color: #005083;
+        padding: 100px;
+        background-image: url("./shivexperts_homepage/Top_banner_1500x600.png");
+        
+    } 
+    .htag p{
+        color: white;
+        padding:26px 0px 0px 0px;
+        font-size: 48px;
+    }
+    .htag .bt> button{
+        text-align: center;
+        padding:10px;
+        font-size: 16px;
+        color :#005083;
+        border: 2px solid white;
+        background-color: white;
+    }
+    .htag .bt> button:hover{
+        background-color: orange;
+        color: white;
+        font-size: 18px;
+    }
+
+
+
+    #layer1{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        text-align: center;
+        margin-top:-40px;
+
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buttons > button{
+        display: flex;
+        flex-direction: row;
+        width: 250px;
+        font-size: medium;
+        height: 80px;
+        margin:auto;
+        padding:10px;
+        padding-top:20px;
+        padding-left:50px;
+
+    }
+
+    .about{
+        width: fit-content;
+        margin-left: 200px;
+        margin-top:50px;
+        display: flex;
+        flex-direction: row;
+        font-size:20px;
+
+    }
+    .content{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left;
+        width: 60%;
+    }
+.caption{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(6, 6, 49);
+}
+  .content-pic{
+    margin-top:80px;
+  }
+
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><img  figcaption="icon" src="./shivexperts_homepage/Shiv_logo.png" width="150px" height="60px" /></li>
+      <li><a class="active" href="#home">HOME</a></li>
+      <li><a href="#ABOUT">ABOUT</a></li>
+      <li><a href="#TEAM">TEAM</a></li>
+      <li><a href="#SERVICE">SERVICE</a></li>
+      <li><a href="#STAFFINGSOLUTION">STAFFING SOLUTION</a></li>
+      <li><a href="#CONTACT">CONTACT</a></li>
+    </ul>
+    <div class="banner">
+            <div class="htag">
+                <p>Creative & Innovative <br> Digital Solution</p>
+               <div class="bt">
+                <button>Free Quote</button>
+                <button>Contact Us</button>
+               </div>
+            </div>
+
+    </div>
+    <layer id="layer1">
+            <div class="buttons">
+                <button class="heighlight" style="background-color: #005083;color: white;">
+                   <span> <img src="./shivexperts_homepage/icons_01.png" width="30" height="30" style="background-color: white;margin: 5px;margin-right: 10px;"></span>
+                    <span>  Happy Clients <br> 50+</span>
+                </button>
+                <button class="heighlight1" style="background-color: white;color: #005083;">
+                    <span> <img src="./shivexperts_homepage/icons_02.png" width="30" height="30" style="background-color: #005083;margin-right: 10px;"></span> <span> Projects Done <br> 50+
+                    </span>
+                </button>
+                <button class="heighlight"style="background-color:#005083 ;color: white;">
+                    <span> <img src="./shivexperts_homepage/icons_03.png" width="30" height="30" style="background-color: white;margin-right: 10px;"> </span>
+                    <span>Ontime Delivery
+                    <br>95%</span>
+                </button>
+            </div>
+         <div class="about">
+            
+              <div class="content">
+                <h3>
+                    ABOUT US
+                </h3>
+               
+              <div class="about-para">
+                <div class="caption">
+                    The Best IT Solutions with 5 Years of Experience
+              </div>
+              <hr width="15%" color="darkblue" size="3px" style="margin-left:2px;"/>
+              <br>
+                <p>
+                At Shiv Software Experts Pvt Ltd. we partner with our client to help  them achieve thier core business objectives by efficiently outsourcing their non-core business processes
+                and delivering   tailored solutions.
+                with our  expertise in software development, we enable business to focus on their key areas while we handle the rest.
+                Our proven startegies and customised solutions are designed to optimise operational efficiency,
+                enhance productivity and drive business growth. Through our cutting-edge technology and industry best practices,
+                we provide our clients with innovative and scalable solutions that are aligned with their business goals.
+                Trust us to deliver top-notch, value added solutions that accelerate your business success.
+            </p>
+            <p>
+                Our company specializes in providing customized software developement solutions and top-notch  IT Staffing  services business of all sizes and industries. We have a team of highly skilled devlopers and IT Professionals who are dedicated to delivering exceptional results to our  clients.Our main aim  is to meet our clients expectations and give them the best results
+            </p>
+              </div>
+             </div>
+             <div class="content-pic">
+                <img src="./shivexperts_homepage/About_us.png" alt="about us" width="300" height="400" >
+             </div>
+
+            
+
+
+         </div>
+    </layer>
+
+</body>
+</html>
